@@ -14,7 +14,7 @@ struct PetAdoptionView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 16) {
-                PetCard(name: "Leppy", type: "Domestic", distance: 1.0, weight: 3.0, gender: "Male")
+                PetCard(name: "Bohr", type: "Domestic", distance: 1.0, weight: 3.0, gender: "Male")
                     .shadow(radius: 10)
                 PetCard(name: "Butet", type: "Persian", distance: 3.5, weight: 5.0, gender: "Female")
                     .shadow(radius: 10)
